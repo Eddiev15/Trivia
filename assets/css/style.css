@@ -1,11 +1,11 @@
 h1, .jumbotron {
 	text-align: center;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Amatic SC';
 	color: #fff;
 }
 
 .jumbotron {
-	background-image: url("../images/header-img.jpg");
+	background-image: url("../images/header.jpg");
 }
 
 body {
@@ -60,6 +60,6 @@ fieldset[disabled] .btn.active {
 } 
  
 .btn .badge { 
-  color: #B8A351; 
+  color: rgb(179, 28, 23); 
   background-color: #ffffff; 
 }

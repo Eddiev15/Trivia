@@ -12,11 +12,11 @@ $(document).ready(function(){
     var question = ["What hoopster scored in double figures in 787 straight games, from December 4, 1977 to December 4, 1987?",
     "What NBA team plays home games in an arena located at Two Pennsylvania Plaza?", "What NBA hoopster averaged an amazing 48.5 minutes per game, including overtime, in the 1961-62 season?", "What seven-foot-one NBA center's first name translates as 'little one'?", "What was the first NBA team to win 70 games or more in the regular season?",
     "How many NBA titles did Magic Johnson help the Lakers win as a player?", " What city decided to call its new NBA team the Grizzlies, after much debate?", "What franchise has played in the most NBA finals since 1947?", "Who was the first hoopster to win eight NBA scoring titles?", "What NBA team is named after a car part?"];
-    var answer = ["Kareem Abdul-Jabbar", "The New York Knicks", "Wilt Chamberlin", "Shaquille O'Neal", "Chicago Bulls", "Five", "Vancouver", "The Lakers"];
+    var answer = ["Kareem Abdul-Jabbar", "The New York Knicks", "Wilt Chamberlin", "Shaquille O'Neal", "Chicago Bulls", "Five", "Vancouver", "The Lakers", "The Pistons"];
     var firstChoice = ["Shaquille O'Neal", "Philadelphia 76ers", "Michael Jordan", "Kareem Abdul-Jabbar", "Miami Heat", "Ten", "Boston", "The Pistons"];
-    var secondChoice = ["Dikembe Mutombo", "The New York Knicks", "Wilt Chamberlin", "Wilt Chamberlain", "Los Angeles Lakers", "New York", "The Timberwolves"];
+    var secondChoice = ["Dikembe Mutombo", "The New York Knicks", "Wilt Chamberlin", "Wilt Chamberlain", "Los Angeles Lakers", "Six", "Miami","The Lakers"];
     var thirdChoice = ["Patrick Ewing", "Detroit Pistons", "Magic Johnson", "Shaquille O'Neal", "Chicago Bulls", "Two", "Vancouver", "The Bucks"];
-    var fourthChoice = ["Kareem Abdul-Jabbar", "Chicago Bulls", "Larry Bird", "Dirk Nowitski", "Golden State Warriors", "Houston", "The Lakers"];
+    var fourthChoice = ["Kareem Abdul-Jabbar", "Chicago Bulls", "Larry Bird", "Dirk Nowitski", "Golden State Warriors", "Five", "Chicago", "The Heat"];
 
 // Show & Hide Functions
     function showHolders() {
@@ -191,6 +191,10 @@ $(document).ready(function(){
         else if(count === 7) {
             $("#image-holder").show();
             $("#image-holder").html('<img src="assets/images/lakers.jpg">');
+        }
+        else if(count === 8) {
+            $("#image-holder").show();
+            $("#image-holder").html('<img src="assets/images/pistons.jpg">');
         }
     }
 
